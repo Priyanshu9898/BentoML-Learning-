@@ -1,0 +1,10 @@
+service: "service.py:svc"
+labels:
+ owner: Priyanshu
+ project: gallery
+include:
+- "*.py"
+python:
+  pachages:
+    - scikit-learn
+    - pandas
